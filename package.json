@@ -1,0 +1,8 @@
+{
+  "name": "pdf-text-parser",
+  "version": "0.1.0",
+  "description": "Parses PDF's text in a nice and simple format",
+  "main": "src/index.js",
+  "author": "Gonzalo Rizzo",
+  "license": "MIT"
+}
