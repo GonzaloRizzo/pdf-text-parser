@@ -4,8 +4,9 @@
   "description": "Parses PDF's text in a nice and simple format",
   "main": "src/index.js",
   "bin": "src/cli.js",
-  "author": "Gonzalo Rizzo",
+  "author": "Gonzalo Rizzo <contact@gonzalorizzo.com>",
   "license": "MIT",
+  "repository": "github:GonzaloRizzo/pdf-text-parser",
   "dependencies": {
     "fs-extra": "^7.0.0",
     "lodash.range": "^3.2.0",
