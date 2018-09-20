@@ -1,0 +1,7 @@
+{
+    "extends": ["airbnb"],
+    "rules": {
+        "no-console": "off",
+        "implicit-arrow-linebreak": "off"
+    }
+}
