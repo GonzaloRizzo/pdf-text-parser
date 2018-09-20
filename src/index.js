@@ -1,12 +1,15 @@
 const pdfjs = require('pdfjs-dist');
-const range = require('lodash.range');
+
+
+const range = size => [...Array(size).keys()];
+
 
 async function parse(pdfData) {
   const document = await pdfjs.getDocument(pdfData);
   const metadata = (await document.getMetadata()).info;
 
   const pages = await Promise.all(
-    range(1, document.numPages + 1).map(pageNumber => document.getPage(pageNumber)),
+    range(document.numPages).map(pageNumber => document.getPage(pageNumber + 1)),
   );
 
   const pagesTextData = (await Promise.all(
