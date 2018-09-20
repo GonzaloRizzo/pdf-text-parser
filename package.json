@@ -4,5 +4,9 @@
   "description": "Parses PDF's text in a nice and simple format",
   "main": "src/index.js",
   "author": "Gonzalo Rizzo",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash.range": "^3.2.0",
+    "pdfjs-dist": "^2.0.489"
+  }
 }
