@@ -1,11 +1,19 @@
 {
   "name": "pdf-text-parser",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Parses PDF's text in a nice and simple format",
   "main": "src/index.js",
   "bin": "src/cli.js",
-  "author": "Gonzalo Rizzo",
+  "author": "Gonzalo Rizzo <contact@gonzalorizzo.com>",
   "license": "MIT",
+  "repository": "github:GonzaloRizzo/pdf-text-parser",
+  "keywords": [
+    "pdf",
+    "pdfjs",
+    "parse",
+    "text extract",
+    "pdftotext"
+  ],
   "dependencies": {
     "fs-extra": "^7.0.0",
     "pdfjs-dist": "^2.0.489"
