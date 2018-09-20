@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "description": "Parses PDF's text in a nice and simple format",
   "main": "src/index.js",
+  "bin": "src/cli.js",
   "author": "Gonzalo Rizzo",
   "license": "MIT",
   "dependencies": {
+    "fs-extra": "^7.0.0",
     "lodash.range": "^3.2.0",
     "pdfjs-dist": "^2.0.489"
   }
